@@ -9,6 +9,17 @@ html,body{
 }
 
 @font-face {
+    font-family: 'Sifonn';
+    src: url('../fonts/Sifonn-Pro.woff2') format('woff2'),
+        url('..fonts/Sifonn-Pro.woff') format('woff'),
+        url('..fonts/Sifonn-Pro.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*
+@font-face {
     font-family: 'Sifonn Pro';
     font-style: normal;
     font-weight: normal;
@@ -45,7 +56,7 @@ html,body{
 	font-size: 24px;
 	/* margin-right: 40px; */
 	/* margin-left: 40px; */
-	font-family: sifonn pro;
+	font-family: sifonn;
 	text-decoration: none;
 }
 
@@ -72,7 +83,8 @@ html,body{
 }
 
 .nav-element2:hover {
-	color: #151515;
+	/*color: #151515;*/
+	color: blue;
 	cursor: pointer;
 	text-decoration: underline;
 	text-decoration-color: #A6EBF4;
@@ -106,7 +118,7 @@ html,body{
 	width: 70%;
 	flex-direction: column;
 	align-items: left;
-	font-family: sifonn pro;
+	font-family: sifonn pro ;
 	cursor: default;
 }
 
