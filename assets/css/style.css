@@ -8,22 +8,22 @@ html,body{
 	background-color: #FCFCFC;
 }
 
-@font-face {
+
+/*@font-face {
     font-family: 'Sifonn';
-    src: url('../fonts/Sifonn-Pro.woff2') format('woff2'),
-        url('..fonts/Sifonn-Pro.woff') format('woff'),
-        url('..fonts/Sifonn-Pro.ttf') format('truetype');
+    src: url('Sifonn-Pro.woff2') format('woff2'),
+        url('Sifonn-Pro.woff') format('woff'),
+        url('Sifonn-Pro.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
+} */
 
-/*
 @font-face {
     font-family: 'Sifonn Pro';
     font-style: normal;
     font-weight: normal;
-    src: local('Sifonn Pro'), url('../fonts/Sifonn_Pro.woff') format('woff');
+    src: local('Sifonn Pro'), url('/assets/fonts/Sifonn_Pro.woff') format('woff');
     }
 
 
@@ -56,7 +56,7 @@ html,body{
 	font-size: 24px;
 	/* margin-right: 40px; */
 	/* margin-left: 40px; */
-	font-family: sifonn;
+	font-family: sifonn pro;
 	text-decoration: none;
 }
 
@@ -72,7 +72,8 @@ html,body{
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: flex-end;
-	color: #787878;
+	/*color: #787878;*/
+	color: blue;
 	font-size: 16px;
 	font-weight: bold;
 	/* margin-right:10px;
@@ -83,8 +84,7 @@ html,body{
 }
 
 .nav-element2:hover {
-	/*color: #151515;*/
-	color: blue;
+	color: #151515;
 	cursor: pointer;
 	text-decoration: underline;
 	text-decoration-color: #A6EBF4;
