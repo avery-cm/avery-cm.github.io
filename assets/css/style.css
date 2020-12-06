@@ -2,7 +2,8 @@ html,body{
 	position: relative;
 	margin: 0;
 	font-family: 'Karla', sans-serif;
-	font-family: 'Sifonn Pro';
+	font-family: 'Sifonn Pro', 'righteous';
+	font-style: 'righteous';
 	font-size: 36px;
 	color: #151515;
 	background-color: #FCFCFC;
@@ -219,6 +220,7 @@ html,body{
 	position: relative;
 	top: 120px;
 	z-index: 2;
+	font-family: sifonn;
 }
 
 
@@ -354,6 +356,7 @@ html,body{
 	position: relative;
 	top:120px;
 	z-index: 2;
+	font-family: sifonn;
 
 }
 
