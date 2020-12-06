@@ -44,7 +44,7 @@ html,body{
 	background-color: #FCFCFC;
 	width: 100%;
 	height: 70px;
-	font-family: sifonn pro;
+	font-family: sifonn;
 	z-index: 2;
 }
 
@@ -118,7 +118,7 @@ html,body{
 	width: 70%;
 	flex-direction: column;
 	align-items: left;
-	font-family: sifonn pro ;
+	font-family: sifonn;
 	cursor: default;
 }
 
@@ -174,7 +174,7 @@ html,body{
 }
 
 .connect {
-	font-family: Sifonn Pro;
+	font-family: Sifonn;
 	text-transform: uppercase;
 	color: #787878;
 }
@@ -253,7 +253,7 @@ html,body{
 	color: #151515;
 	display: flex;
 	justify-content: flex-end;
-	font-family: sifonn pro;
+	font-family: sifonn;
 	height: 150px;
 
 }
@@ -290,7 +290,7 @@ html,body{
 }
 
 .connect2 {
-	font-family: Sifonn Pro;
+	font-family: Sifonn;
 	text-transform: uppercase;
 	color: #787878;
 }
@@ -383,7 +383,7 @@ html,body{
 	width: 100%;
 	position: relative;
 	z-index: 1;
-	font-family: sifonn pro;
+	font-family: sifonn;
 }
 
 .header {
@@ -432,7 +432,7 @@ html,body{
 
 .date {
 	position: relative;
-	font-family: sifonn pro;
+	font-family: sifonn;
 	font-size: 72px;
 	color: #151515;
 	height: 200px;
@@ -572,7 +572,7 @@ DEMO
 
 
 .news__title{
-	font-family: 'sifonn pro', sans-serif;
+	font-family: 'sifonn', sans-serif;
 	line-height: 1.25;
 	color: #151515;
 }
@@ -747,7 +747,7 @@ a{color:#336699;}
 	margin-bottom: 20%;
 	margin-left: 10%;
 	margin-right: 10%;	
-	font-family: sifonn pro;
+	font-family: sifonn;
 	font-size: 130px;
 	line-height: 1.5;
 	align-items: center;
@@ -874,7 +874,7 @@ a{color:#336699;}
 	justify-content: center;
 	font-size: 64px;
 	color: #151515;
-	font-family: sifonn pro;
+	font-family: sifonn;
 	z-index: 2;
 
 }
@@ -899,7 +899,7 @@ a{color:#336699;}
 .allergy-name-mobile, .date-mobile {
 	font-size: 64px;
 	color: #151515;
-	font-family: sifonn pro;
+	font-family: sifonn;
 	margin-top: 10%;
 }
 
@@ -958,7 +958,7 @@ a{color:#336699;}
 }
 
 .connect-mobile {
-	font-family: Sifonn Pro;
+	font-family: Sifonn;
 	text-transform: uppercase;
 	color: #787878;
 }
