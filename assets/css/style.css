@@ -742,6 +742,21 @@ a{color:#336699;}
 
 /*MOBILE*/
 
+
+#mobile-site-tite {
+	display: flex;
+	justify-content: center;
+	font-family: 'Shrikhand';
+	font-size: 56px;
+	background-color: #FCFCFC;
+	position: fixed;
+	top: 0px;
+	z-index: 3;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 #mobile-title {
 	display: flex;
 	flex-direction: column;
@@ -779,7 +794,7 @@ a{color:#336699;}
 }
 
 
-
+/*
 .mobile-title-2 {
 	position: relative;
 	display: flex;
@@ -827,7 +842,7 @@ a{color:#336699;}
   z-index: -1;
 
 }
-
+*/
 
 
 #link {
@@ -840,22 +855,29 @@ a{color:#336699;}
 }
 
 .link {
-	font-family: karla;
-	font-weight: bold;
-
+	font-family: 'Shrikhand';
+	text-decoration: none;
 	text-transform: uppercase;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #FCFCFC;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	width: 50%;
+	text-align: center;
+	border-radius: 25px;
 }
 
 .linkmeet {
-	color: #50D274;
+	background-color: #50D274;
 }
 
 .linkhistory {
-	color: #F4A6E3;
+	background-color: #F4A6E3;
 }
 
 .linkabout {
-	color: #7683F6;
+	background-color: #7683F6;
 }
 
 
@@ -881,6 +903,10 @@ a{color:#336699;}
 
 }
 
+
+.mobile-meet {
+	background-color: #cbf4cb;
+}
 
 
 .mobile-meet::after {
@@ -918,6 +944,10 @@ a{color:#336699;}
 	margin-left: 10%;
 	margin-right: 10%;	
 	margin-top: 30%;
+}
+
+.mobile-history {
+	background-color: #edd0ed;
 }
 
 #emoji-history-mobile {
