@@ -6,8 +6,8 @@ html,body{
 	font-style: 'righteous';
 	font-family: 'Shrikhand', 'righteous';
 	font-size: 36px;
-	color: #151515;
-	background-color: #FCFCFC;
+	color: #323232;
+	background-color: #f7f7f7;
 }
 
 
@@ -43,7 +43,7 @@ html,body{
 	align-items: center;
 	left: 10%;
 	top: 2%;
-	background-color: #FCFCFC;
+	background-color: #f7f7f7;
 	width: 100%;
 	height: 70px;
 	font-family: 'Shrikhand', cursive;
@@ -99,7 +99,7 @@ html,body{
 
 #home-text {
 	font-size: 104px;
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-start;
 	width:;
@@ -115,7 +115,7 @@ html,body{
 
 .title {
 	font-size: 48px;
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: left;
 	width: 70%;
@@ -126,7 +126,7 @@ html,body{
 
 .home-body {
 	font-size: 16px;
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
@@ -253,17 +253,17 @@ html,body{
 }
 
 .allergy-name {
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-end;
 	font-family: 'Shrikhand', cursive;
-	height: 150px;
+	height: 180px;
 
 }
 
 .bio {
 	width: 600px;
-	height: 150px;
+	height: 180px;
 	font-size: 16px;
 	font-family: Karla;
 	text-align: left;
@@ -280,9 +280,21 @@ html,body{
 	width: 20%;
 }
 
+.nuts {
+	margin-bottom: 20px;
+}
+
+.banana {
+	margin-bottom: -30px;
+}
+
+.kiwi {
+	margin-bottom: -30px;
+}
+
 #footer2 {
 	position: relative;
-	top: 1300px;
+	top: 1400px;
 	font-size: 12px;
 	color: #787878;
 	display: flex;
@@ -438,7 +450,7 @@ html,body{
 	position: relative;
 	font-family: 'Shrikhand', cursive;
 	font-size: 72px;
-	color: #151515;
+	color: #323232;
 	height: 200px;
 	width: 400px;
 	margin: 0px 30px;
@@ -456,7 +468,7 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	font-family: Karla;
-	color: 151515;
+	color: #323232;
 }
 
 
