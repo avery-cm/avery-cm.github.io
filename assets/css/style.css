@@ -6,8 +6,8 @@ html,body{
 	font-style: 'righteous';
 	font-family: 'Shrikhand', 'righteous';
 	font-size: 36px;
-	color: #151515;
-	background-color: #FCFCFC;
+	color: #323232;
+	background-color: #f7f7f7;
 }
 
 
@@ -43,7 +43,7 @@ html,body{
 	align-items: center;
 	left: 10%;
 	top: 2%;
-	background-color: #FCFCFC;
+	background-color: #f7f7f7;
 	width: 100%;
 	height: 70px;
 	font-family: 'Shrikhand', cursive;
@@ -56,7 +56,7 @@ html,body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	color: #151515;
+	color: #37301e;
 	font-size: 24px;
 	/* margin-right: 40px; */
 	/* margin-left: 40px; */
@@ -87,7 +87,7 @@ html,body{
 }
 
 .nav-element2:hover {
-	color: #151515;
+	color: #37301e;
 	cursor: pointer;
 	text-decoration: underline;
 	text-decoration-color: #A6EBF4;
@@ -99,7 +99,7 @@ html,body{
 
 #home-text {
 	font-size: 104px;
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-start;
 	width:;
@@ -115,7 +115,7 @@ html,body{
 
 .title {
 	font-size: 48px;
-	color: #151515;
+	color: #37301e;
 	display: flex;
 	justify-content: left;
 	width: 70%;
@@ -126,7 +126,7 @@ html,body{
 
 .home-body {
 	font-size: 16px;
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
@@ -253,17 +253,17 @@ html,body{
 }
 
 .allergy-name {
-	color: #151515;
+	color: #323232;
 	display: flex;
 	justify-content: flex-end;
 	font-family: 'Shrikhand', cursive;
-	height: 150px;
+	height: 180px;
 
 }
 
 .bio {
 	width: 600px;
-	height: 150px;
+	height: 180px;
 	font-size: 16px;
 	font-family: Karla;
 	text-align: left;
@@ -280,9 +280,21 @@ html,body{
 	width: 20%;
 }
 
+.nuts {
+	margin-bottom: 20px;
+}
+
+.banana {
+	margin-bottom: -30px;
+}
+
+.kiwi {
+	margin-bottom: -30px;
+}
+
 #footer2 {
 	position: relative;
-	top: 1300px;
+	top: 1600px;
 	font-size: 12px;
 	color: #787878;
 	display: flex;
@@ -381,7 +393,7 @@ html,body{
 
 /* .history {
 	font-size: 24px;
-	color: #151515;
+	color: #37301e;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -438,7 +450,7 @@ html,body{
 	position: relative;
 	font-family: 'Shrikhand', cursive;
 	font-size: 72px;
-	color: #151515;
+	color: #323232;
 	height: 200px;
 	width: 400px;
 	margin: 0px 30px;
@@ -456,13 +468,16 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	font-family: Karla;
-	color: 151515;
+	color: #323232;
 }
 
 
 .line {
 	border-left: 2px solid #676767;
-  	height: 1200px;
+  	height: 1400px;
+  	border-radius: 99px;
+    margin: 0 20px;
+    margin-bottom: 60px;
 }
 
 
@@ -571,14 +586,14 @@ DEMO
 	--accentColorDark: #f15493;
 	--blackColor: #222;
 	--whiteColor: #fff;
-	--rLinkTextColor: var(--blackColor);
+	--rLinkTextColor: #37301e;
 }	
 
 
 .news__title{
 	font-family: 'Shrikhand', cursive;
 	line-height: 1.25;
-	color: #151515;
+	color: #37301e;
 }
 
 .news__link::after{
@@ -612,7 +627,7 @@ DEMO
 
 .header{
 	width:100%; 
-	background:transparent; 
+	background:#f7f7f7; 
 	height:60px; 
 	line-height:60px;
 }
@@ -623,12 +638,12 @@ DEMO
   left: 0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#151515;
+  color:#37301e;
   border:0;
   font-size:1.4em;
   cursor:pointer;
   outline:none;
-  color: #151515;
+  color: #37301e;
   z-index:10000000000000;
   position: fixed;
 }
@@ -638,7 +653,7 @@ DEMO
   top:0px;
   right:0;
   padding:7px 15px 0px 15px;
-  color:#151515;
+  color: #37301e;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -665,7 +680,7 @@ DEMO
 
 header{display:inline-block; font-size:12px;}
 span{padding-left:20px;}
-a{color:#336699;}
+a{color:#f7f7f7;}
 
 
 /*MEDIA QUERY SCREEN RESPONSIVENESS*/
@@ -750,7 +765,6 @@ a{color:#336699;}
 	justify-content: center;
 	font-family: 'Shrikhand';
 	font-size: 56px;
-	background-color: #FCFCFC;
 	position: fixed;
 	top: 0px;
 	z-index: 3;
@@ -899,7 +913,7 @@ a{color:#336699;}
 	display: flex;
 	justify-content: center;
 	font-size: 64px;
-	color: #151515;
+	color: #37301e;
 	font-family: 'Shrikhand', cursive;
 	z-index: 2;
 
@@ -928,7 +942,7 @@ a{color:#336699;}
 
 .allergy-name-mobile, .date-mobile {
 	font-size: 64px;
-	color: #151515;
+	color: #37301e;
 	font-family: 'Shrikhand', cursive;
 	margin-top: 10%;
 }
@@ -936,7 +950,7 @@ a{color:#336699;}
 
 .bio-mobile, .event-mobile, .about-mobile-text {
 	font-size: 16px;
-	color: #151515;
+	color: #37301e;
 	font-family: karla;
 
 }
